@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Farelinho - Receita</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#f5f5dc] min-h-screen pb-20">
+
+  <header class="sticky top-0 z-50 bg-[#f5f5dc] border-b border-amber-200 shadow-sm cursor-pointer" onclick="window.location.href='index.html'">
+    <div class="py-6 flex items-center justify-center gap-4">
+      <img src="imagens/cookie-icon.png" alt="Logo" class="w-14 h-14 object-contain">
+      <h1 class="text-5xl font-black text-amber-900 font-serif tracking-tight">Farelinho</h1>
+    </div>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 mt-12">
+    <div class="bg-white rounded-[3rem] shadow-2xl overflow-hidden flex flex-col md:flex-row">
+      <div class="md:w-1/2 h-80 md:h-auto">
+        <img id="rec-img" src="" class="w-full h-full object-cover">
+      </div>
+      <div class="md:w-1/2 p-10 md:p-16">
+        <h2 id="rec-nome" class="text-5xl font-black text-amber-900 mb-8 leading-tight"></h2>
+        <div class="mb-10">
+          <h3 class="text-2xl font-bold text-amber-800 mb-4 border-b-2 border-amber-100 pb-2">Ingredientes</h3>
+          <ul id="rec-ing" class="space-y-2 text-gray-700"></ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-bold text-amber-800 mb-4 border-b-2 border-amber-100 pb-2">Modo de Preparo</h3>
+          <ol id="rec-inst" class="space-y-4 text-gray-700"></ol>
+        </div>
+        <button onclick="window.location.href='index.html'" class="mt-12 bg-amber-900 text-white px-8 py-3 rounded-full font-bold hover:bg-amber-800 transition-all">← Voltar</button>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    async function init() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get('id');
+
+      if (!id) return window.location.href = 'index.html';
+
+      try {
+        // Chamada para a rota de ID único da sua API
+        const res = await fetch(`http://localhost:3000/api/receitas/${id}`);
+        
+        if (!res.ok) throw new Error("Receita não encontrada");
+        
+        const rec = await res.json();
+
+        // Preenche o HTML (mantenha os IDs que já usamos antes)
+        document.getElementById('rec-img').src = rec['image-path'];
+        document.getElementById('rec-nome').innerText = rec.name;
+        
+        const ingContainer = document.getElementById('rec-ing');
+        ingContainer.innerHTML = ""; // Limpa antes de preencher
+        rec['full-ingredients'].forEach(i => {
+          const li = document.createElement('li');
+          li.innerText = `• ${i}`;
+          ingContainer.appendChild(li);
+        });
+
+        const instContainer = document.getElementById('rec-inst');
+        instContainer.innerHTML = ""; // Limpa antes de preencher
+        rec.instructions.forEach((p, i) => {
+          const li = document.createElement('li');
+          li.innerHTML = `<span class="font-bold text-amber-600">${i+1}.</span> ${p}`;
+          instContainer.appendChild(li);
+        });
+
+      } catch (error) {
+        console.error(error);
+        alert("Erro ao carregar a receita!");
+        window.location.href = 'index.html';
+      }
+    }
+    init();
+  </script>
+</body>
+</html>

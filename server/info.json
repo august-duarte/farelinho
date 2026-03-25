@@ -1,0 +1,450 @@
+[
+  {
+    "id": 1,
+    "name": "Bolo de Chocolate",
+    "preparation-time": "40 min",
+    "ingredients-count": "7",
+    "description": "Clássico fofinho com cobertura de brigadeiro.",
+    "image-path": "imagens/bolo-de-chocolate.png",
+    "full-ingredients": [
+      "3 ovos",
+      "2 xíc. açúcar",
+      "3 xíc. farinha",
+      "1 xíc. chocolate em pó",
+      "1 xíc. óleo",
+      "1 xíc. água quente",
+      "1 col. fermento"
+    ],
+    "instructions": [
+      "Bata ovos, açúcar e óleo.",
+      "Misture farinha e chocolate.",
+      "Adicione água quente.",
+      "Asse por 40 min."
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Palha Italiana",
+    "preparation-time": "25 min",
+    "ingredients-count": "6",
+    "description": "Doce cremoso com pedaços de biscoito.",
+    "image-path": "imagens/palha-italiana.png",
+    "full-ingredients": [
+      "1 leite condensado",
+      "3 col. chocolate",
+      "1 col. manteiga",
+      "1 pct biscoito maisena"
+    ],
+    "instructions": [
+      "Faça um brigadeiro.",
+      "Misture o biscoito quebrado.",
+      "Deixe esfriar e corte."
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Brigadeiro",
+    "preparation-time": "20 min",
+    "ingredients-count": "4",
+    "description": "O preferido de todas as festas.",
+    "image-path": "imagens/brigadeiro.png",
+    "full-ingredients": [
+      "1 leite condensado",
+      "1 col. manteiga",
+      "3 col. chocolate",
+      "Granulado"
+    ],
+    "instructions": [
+      "Cozinhe até desgrudar.",
+      "Enrole após esfriar.",
+      "Passe no granulado."
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Pudim",
+    "preparation-time": "50 min",
+    "ingredients-count": "5",
+    "description": "Textura aveludada com calda de caramelo.",
+    "image-path": "imagens/pudim.png",
+    "full-ingredients": [
+      "1 leite condensado",
+      "1 leite",
+      "3 ovos",
+      "1 xíc. açúcar (calda)"
+    ],
+    "instructions": [
+      "Caramelize a forma.",
+      "Bata o restante e asse em banho-maria."
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mousse de Maracujá",
+    "preparation-time": "15 min",
+    "ingredients-count": "4",
+    "description": "Refrescante e muito fácil de preparar.",
+    "image-path": "imagens/mousse-de-maracuja.png",
+    "full-ingredients": [
+      "1 leite condensado",
+      "1 creme de leite",
+      "1 xíc. suco maracujá"
+    ],
+    "instructions": [
+      "Bata tudo no liquidificador.",
+      "Gele por 4 horas."
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Quindim",
+    "preparation-time": "35 min",
+    "ingredients-count": "3",
+    "description": "Doce brilhante à base de gemas e coco.",
+    "image-path": "imagens/quindim.png",
+    "full-ingredients": [
+      "10 gemas",
+      "200g coco ralado",
+      "2 xíc. açúcar"
+    ],
+    "instructions": [
+      "Misture tudo.",
+      "Asse em banho-maria até dourar."
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Beijinho",
+    "preparation-time": "20 min",
+    "ingredients-count": "4",
+    "description": "O par perfeito do brigadeiro.",
+    "image-path": "imagens/beijinho.png",
+    "full-ingredients": [
+      "1 leite condensado",
+      "1 col. manteiga",
+      "100g coco ralado"
+    ],
+    "instructions": [
+      "Cozinhe até desgrudar.",
+      "Enrole e passe no coco."
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Torta de Limão",
+    "preparation-time": "45 min",
+    "ingredients-count": "6",
+    "description": "Equilíbrio perfeito entre o doce e o azedo.",
+    "image-path": "imagens/torta-de-limao.png",
+    "full-ingredients": [
+      "1 pct biscoito",
+      "100g manteiga",
+      "2 leite condensado",
+      "Suco de 3 limões"
+    ],
+    "instructions": [
+      "Faça a base com biscoito.",
+      "Misture o creme e coloque por cima.",
+      "Gele por 3 horas."
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Pavê de Baunilha",
+    "preparation-time": "30 min",
+    "ingredients-count": "7",
+    "description": "Camadas de creme e biscoito molhado.",
+    "image-path": "imagens/pave-de-baunilha.png",
+    "full-ingredients": [
+      "1 leite",
+      "1 leite condensado",
+      "2 gemas",
+      "Biscoito champagne"
+    ],
+    "instructions": [
+      "Cozinhe o creme.",
+      "Monte as camadas intercaladas.",
+      "Gele antes de servir."
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Bolo de Cenoura",
+    "preparation-time": "50 min",
+    "ingredients-count": "8",
+    "description": "Com aquela calda de chocolate crocante.",
+    "image-path": "imagens/bolo-de-cenoura.png",
+    "full-ingredients": [
+      "3 cenouras",
+      "3 ovos",
+      "1 xíc. óleo",
+      "2 xíc. farinha"
+    ],
+    "instructions": [
+      "Bata cenoura, ovos e óleo.",
+      "Misture a farinha.",
+      "Asse por 40 min."
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Brownie",
+    "preparation-time": "30 min",
+    "ingredients-count": "6",
+    "description": "Casquinha crocante e interior úmido.",
+    "image-path": "imagens/brownie.png",
+    "full-ingredients": [
+      "200g chocolate",
+      "100g manteiga",
+      "3 ovos",
+      "1 xíc. açúcar"
+    ],
+    "instructions": [
+      "Derreta chocolate e manteiga.",
+      "Adicione ovos e açúcar.",
+      "Asse por 25 min."
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Petit Gâteau",
+    "preparation-time": "15 min",
+    "ingredients-count": "5",
+    "description": "Bolinho quente com recheio derretido.",
+    "image-path": "imagens/petit-gateau.png",
+    "full-ingredients": [
+      "200g chocolate",
+      "2 ovos",
+      "2 gemas",
+      "2 col. farinha"
+    ],
+    "instructions": [
+      "Misture os ingredientes.",
+      "Asse em fogo alto por apenas 7 min."
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Cookie de Gotas",
+    "preparation-time": "25 min",
+    "ingredients-count": "7",
+    "description": "Estilo americano: macio e cheio de chocolate.",
+    "image-path": "imagens/cookie-de-gotas.png",
+    "full-ingredients": [
+      "125g manteiga",
+      "1/2 xíc. açúcar",
+      "1 ovo",
+      "1 1/2 xíc. farinha"
+    ],
+    "instructions": [
+      "Misture a massa.",
+      "Faça bolinhas com gotas de chocolate.",
+      "Asse por 15 min."
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Gelatina Colorida",
+    "preparation-time": "120 min",
+    "ingredients-count": "5",
+    "description": "Divertida, colorida e refrescante.",
+    "image-path": "imagens/gelatina-colorida.png",
+    "full-ingredients": [
+      "3 sabores de gelatina",
+      "1 leite condensado",
+      "1 creme de leite"
+    ],
+    "instructions": [
+      "Faça as gelatinas e corte em cubos.",
+      "Misture ao creme de leite condensado."
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Sonho de Padaria",
+    "preparation-time": "60 min",
+    "ingredients-count": "8",
+    "description": "Massa fofinha com recheio de creme.",
+    "image-path": "imagens/sonho-de-padaria.png",
+    "full-ingredients": [
+      "500g farinha",
+      "2 ovos",
+      "1 xíc. leite",
+      "Creme de confeiteiro"
+    ],
+    "instructions": [
+      "Sove a massa e deixe crescer.",
+      "Frite e recheie com o creme."
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Donuts",
+    "preparation-time": "90 min",
+    "ingredients-count": "7",
+    "description": "Rosquinhas macias com cobertura colorida.",
+    "image-path": "imagens/donuts.png",
+    "full-ingredients": [
+      "farinha",
+      "leite",
+      "fermento",
+      "manteiga",
+      "confeitos"
+    ],
+    "instructions": [
+      "Frite as rosquinhas.",
+      "Mergulhe na cobertura de açúcar ou chocolate."
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Bolo de Fubá",
+    "preparation-time": "40 min",
+    "ingredients-count": "6",
+    "description": "O clássico do café da tarde.",
+    "image-path": "imagens/bolo-de-fuba.png",
+    "full-ingredients": [
+      "3 ovos",
+      "1 xíc. fubá",
+      "1 xíc. farinha",
+      "1 xíc. leite"
+    ],
+    "instructions": [
+      "Misture os secos.",
+      "Adicione os líquidos.",
+      "Asse até dourar."
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Pão de Mel",
+    "preparation-time": "45 min",
+    "ingredients-count": "9",
+    "description": "Especiarias com recheio de doce de leite.",
+    "image-path": "imagens/pao-de-mel.png",
+    "full-ingredients": [
+      "mel",
+      "leite",
+      "chocolate",
+      "cravo",
+      "canela",
+      "doce de leite"
+    ],
+    "instructions": [
+      "Asse a massa.",
+      "Corte ao meio e recheie.",
+      "Banhe no chocolate."
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Churros Caseiro",
+    "preparation-time": "30 min",
+    "ingredients-count": "5",
+    "description": "Crocante por fora e macio por dentro.",
+    "image-path": "imagens/churros-caseiro.png",
+    "full-ingredients": [
+      "250ml água",
+      "2 col. açúcar",
+      "2 xíc. farinha",
+      "doce de leite"
+    ],
+    "instructions": [
+      "Ferva água e açúcar.",
+      "Misture a farinha.",
+      "Frite e passe no açúcar com canela."
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Tiramisu",
+    "preparation-time": "40 min",
+    "ingredients-count": "7",
+    "description": "Sobremesa italiana sofisticada com café.",
+    "image-path": "imagens/tiramisu.png",
+    "full-ingredients": [
+      "mascarpone",
+      "café",
+      "biscoito champagne",
+      "cacau em pó"
+    ],
+    "instructions": [
+      "Molhe biscoitos no café.",
+      "Intercale com creme de queijo.",
+      "Gele."
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Manjar de Coco",
+    "preparation-time": "30 min",
+    "ingredients-count": "5",
+    "description": "Branco como nuvem com calda de ameixa.",
+    "image-path": "imagens/manjar-de-coco.png",
+    "full-ingredients": [
+      "leite de coco",
+      "amido",
+      "leite",
+      "açúcar",
+      "ameixas"
+    ],
+    "instructions": [
+      "Cozinhe o creme até engrossar.",
+      "Coloque na forma e gele."
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Roscas de Polvilho",
+    "preparation-time": "30 min",
+    "ingredients-count": "4",
+    "description": "Sequilhos que derretem na boca.",
+    "image-path": "imagens/roscas-de-polvilho.png",
+    "full-ingredients": [
+      "polvilho doce",
+      "manteiga",
+      "leite condensado"
+    ],
+    "instructions": [
+      "Amasse até soltar das mãos.",
+      "Modele e asse por 15 min."
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Bolo de Milho",
+    "preparation-time": "40 min",
+    "ingredients-count": "6",
+    "description": "Feito no liquidificador, muito prático.",
+    "image-path": "imagens/bolo-de-milho.png",
+    "full-ingredients": [
+      "1 lata milho",
+      "3 ovos",
+      "1 xíc. milharina",
+      "1 xíc. açúcar"
+    ],
+    "instructions": [
+      "Bata tudo no liquidificador.",
+      "Asse em forma untada."
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Cheesecake",
+    "preparation-time": "60 min",
+    "ingredients-count": "8",
+    "description": "Base de biscoito com creme de queijo leve.",
+    "image-path": "imagens/cheesecake.png",
+    "full-ingredients": [
+      "cream cheese",
+      "biscoito",
+      "manteiga",
+      "geleia de amora"
+    ],
+    "instructions": [
+      "Monte a base.",
+      "Adicione o creme e asse suavemente.",
+      "Cubra com geleia."
+    ]
+  }
+]
